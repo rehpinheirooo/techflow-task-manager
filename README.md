@@ -44,6 +44,14 @@ Como resultado, foi adicionada a seguinte funcionalidade ao escopo:
 
 Essa mudança foi registrada no quadro Kanban do GitHub Projects e implementada por meio de commits específicos, garantindo melhor qualidade, manutenção e aderência às boas práticas da Engenharia de Software.
 
+## 🔧 Desafios e Correções Durante o Desenvolvimento
+
+Durante a configuração do pipeline de Integração Contínua com GitHub Actions, foram identificados erros iniciais relacionados à execução dos testes automatizados.
+
+O principal problema ocorreu devido à estrutura de diretórios do projeto, onde o módulo da aplicação não era localizado corretamente durante a execução do Pytest no ambiente de CI. Para solucionar esse problema, foi necessário ajustar a configuração do ambiente, garantindo que o caminho correto da aplicação fosse reconhecido durante a execução dos testes.
+
+Após os ajustes no workflow, os testes passaram a ser executados corretamente, resultando em um pipeline funcional e estável.
+
 ## ▶️ Como Executar o Projeto
 ```bash
 pip install -r requirements.txt
