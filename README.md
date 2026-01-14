@@ -1,4 +1,4 @@
-CI test
+TechFlow Task Manager – Projeto de Engenharia de Software
 
 # TechFlow Task Manager
 
@@ -9,11 +9,16 @@ O sistema permite criar, visualizar, atualizar e remover tarefas, além de acomp
 
 ## 🎯 Objetivo
 Desenvolver um sistema simples e funcional que demonstre:
-- Planejamento ágil
-- Controle de versionamento
-- Automação de testes
-- Gestão de mudanças
-- Integração contínua com GitHub Actions
+
+Aplicação de metodologias ágeis
+
+Uso de controle de versionamento
+
+Automação de testes
+
+Gestão de mudanças
+
+Integração contínua utilizando GitHub Actions
 
 ## 🧩 Escopo Inicial
 - CRUD de tarefas
@@ -22,13 +27,16 @@ Desenvolver um sistema simples e funcional que demonstre:
 - Pipeline de CI
 
 ## 🔄 Metodologia Utilizada
-Foi adotado o **Kanban**, utilizando o GitHub Projects para controle visual das tarefas, permitindo acompanhamento contínuo do progresso.
+Foi adotada a metodologia Kanban, utilizando o GitHub Projects para o controle visual das tarefas, permitindo o acompanhamento contínuo do progresso do projeto.
 
 ## 🛠️ Tecnologias Utilizadas
-- Python
-- Flask
-- Pytest
-- GitHub Actions
+Python
+
+Flask
+
+Pytest
+
+GitHub Actions
 
 - ## 🔄 Mudança de Escopo
 
@@ -53,7 +61,14 @@ O principal problema ocorreu devido à estrutura de diretórios do projeto, onde
 Após os ajustes no workflow, os testes passaram a ser executados corretamente, resultando em um pipeline funcional e estável.
 
 ## ▶️ Como Executar o Projeto
-```bash
+
+Certifique-se de ter o Python instalado.
+
+No diretório raiz do projeto, execute:
+
 pip install -r requirements.txt
 python src/app.py
+
+
+A aplicação estará disponível no navegador conforme indicado no terminal.
 
