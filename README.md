@@ -32,7 +32,7 @@ Foi adotada a metodologia Kanban, utilizando o GitHub Projects para o controle v
 ## 🛠️ Tecnologias Utilizadas
 Python
 
-Flask
+Flask'
 
 Pytest
 
