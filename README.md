@@ -30,14 +30,14 @@ Integração contínua utilizando GitHub Actions
 Foi adotada a metodologia Kanban, utilizando o GitHub Projects para o controle visual das tarefas, permitindo o acompanhamento contínuo do progresso do projeto.
 
 ## 🛠️ Tecnologias Utilizadas
-Python
+- `Python`
 
 - `Flask`
 
 
-Pytest
+- `Pytest`
 
-GitHub Actions
+- `GitHub Actions`
 
 - ## 🔄 Mudança de Escopo
 
